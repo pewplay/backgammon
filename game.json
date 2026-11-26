@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Backgammon",
+  "description": "Roll the dice, hit lone checkers and race all fifteen home to bear off first in classic Backgammon vs the computer or a friend. Free in your browser.",
+  "about": "Backgammon is one of the oldest board games still played today, a mix of luck and strategy for two players. Each side has fifteen checkers that race in opposite directions around a board of twenty-four triangles. Roll two dice and move your checkers by those numbers; doubles let you move four times.\n\nA single checker on a point is a blot: land on it and it goes to the bar, from where it has to re-enter before anything else can move. Two or more checkers make a safe point that your opponent cannot land on. Once all your checkers are in your home board you can start bearing them off, and the first player to remove all fifteen wins, with a gammon or backgammon for a big victory.\n\nThe game follows the full rules, highlights every legal move and lets you undo before confirming your turn.",
+  "howToPlay": "Tap a checker to see where it can go, then tap a highlighted point. Each die is a separate move, and you must use both dice if you can. Hit single enemy checkers to send them to the bar and avoid leaving your own alone. Bring all fifteen checkers into your home board, then bear them off; the first to clear the board wins.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Select a checker, then a highlighted point"
+    },
+    {
+      "input": "Done / Enter",
+      "action": "Confirm your turn"
+    },
+    {
+      "input": "Undo / Z",
+      "action": "Take back the moves of this turn"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Making points in your home board blocks the checkers your opponent has on the bar.",
+    "Avoid leaving blots within six points of an enemy checker whenever you can.",
+    "When you are far ahead in the race, stop hitting and run your checkers home.",
+    "Six consecutive points form a prime that no checker can jump over."
+  ],
+  "faq": [
+    {
+      "question": "Is Backgammon free to play?",
+      "answer": "Yes. Backgammon is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play Backgammon on a phone or tablet?",
+      "answer": "Yes. Tap a checker and then a highlighted point. On a phone held upright the board rotates to make the checkers bigger; landscape works too."
+    },
+    {
+      "question": "Are all the official rules included?",
+      "answer": "Yes: hitting and the bar, bearing off, doubles played four times, the obligation to use both dice, and gammon and backgammon wins. The doubling cube is not used."
+    }
+  ],
+  "category": "Board",
+  "tags": [
+    "backgammon",
+    "dice",
+    "board game",
+    "strategy",
+    "two player"
+  ],
+  "author": "PewPlay",
+  "playMode": "Both",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
